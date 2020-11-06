@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Application Name: Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run locally: (requires nodejs)
+---------------
 
-## Available Scripts
+1. Install nodejs / npm if necessary
 
-In the project directory, you can run:
+From terminal
+-------------
+2. Install serve - 'npm install -g serve'
+3. Unzip prod build archive to a folder of your choice
+4. Change directory to the folder in #3
+5. Run the app - 'serve -s .'
+6. Enter URL per startup message in your browser
+Ex.   - Local:  http://localhost:5000
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run over network follow URL below:
+https://steve-brown701.github.io/marketplace/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+How the application was develop
+-------------------------------
+For a single page aplication application template I used React.js framemwork.
+Official instructions on how this is done can be found here:
+https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As this was my first time ever exposure to utilizing React.js,
+I also spent some time going over this tutorial
+https://www.taniarascia.com/getting-started-with-react/
 
-### `npm run build`
+Once I got a handle on the workings of React.js I started implementing the application.
+I used the information in the mock take home document / screen shoot as direction for UI layout.
+I had not prior experience with any of the Frameworks mentioned in the document.
+My experience with front end was limmited to just HTML/ CSS and pure Javascript.
+React.js was my choice of Framework as I believe it the most popular; and it was the one I wanted to learn.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Although it was not mentioned in the specs, It seems obvious to me that duplicates and empty records should
+not ne allowed; so I implemented the app to reject those. I also went ahead and implemented record delete / removal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit a record
+-------------
+I add a button for this functionality but left the implemnetation for further dicussion.
+The most obvious implement for me would be to do a pop-up form with the record fields filled in.
+This would be a user friendly way to allow user to update fields with current value as reference.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Comments on take home
+---------------------
+Challenging to me as i had no previous experiemce with a front-end framework.
+A good learming experience for me; and I think it a fair challenge  for Sr role.
+I sure it will be trival for a more experience front-end engineer.
 
-### `npm run eject`
+Happy Hacking :-)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
